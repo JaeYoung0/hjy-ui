@@ -1,5 +1,5 @@
 {
-  "name": "hjy-ui",
+  "name": "@hjy8697/hjy-ui",
   "version": "1.0.0",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
@@ -33,6 +33,11 @@
     "build": "rollup -c"
   },
   "peerDependencies": {
-    "@emotion/core": "^11.0.0"
-  }
+    "@emotion/core": "^11.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "files": [
+    "/lib"
+  ]
 }
